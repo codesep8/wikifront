@@ -3,11 +3,12 @@
 </template>
 
 <script>
-const Liberty = async() => await import("../skins/liberty/layout.vue")
-const Buma = async() => await import("../skins/buma/layout.vue")
+const Liberty = async() => await import("../skins/liberty/layout.vue");
+const Buma = async() => await import("../skins/buma/layout.vue");
+
+var Layout;
 
 const skin = "buma"
-var Layout;
 
 if (skin == "liberty") {
     Layout = Liberty

@@ -5,6 +5,12 @@
     </div>
 </template>
 
+<style scoped>
+.Buma {
+    background: #996633;
+}
+</style>
+
 <script>
 export default {
 }
