@@ -1,19 +1,19 @@
 <template>
-    <Layout class="app"/>
+    <Layout/>
 </template>
 
 <script>
-const Liberty = async() => await import("../skins/liberty/layout.vue");
-const Buma = async() => await import("../skins/buma/layout.vue");
+const liberty = async() => await import("~/skins/liberty/layout.vue");
+const buma = async() => await import("~/skins/buma/layout.vue");
 
 var Layout;
 
-const skin = "buma"
+const skin = "buma";
 
 if (skin == "liberty") {
-    Layout = Liberty
+    Layout = liberty
 } else {
-    Layout = Buma
+    Layout = buma
 }
 
 export default {
