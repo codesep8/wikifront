@@ -1,9 +1,10 @@
 <template>
-  <Tutorial/>
+  <h1>redirecting</h1>
 </template>
-
 <script>
 export default {
-  name: 'IndexPage'
+  beforeCreate() {
+    this.$router.push("/w/frontpage")
+  }
 }
 </script>

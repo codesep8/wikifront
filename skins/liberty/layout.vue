@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>liberty</h1>
+    <div class="Liberty">
+        <nuxt-link to="/">liberty</nuxt-link>
         <nuxt />
     </div>
 </template>

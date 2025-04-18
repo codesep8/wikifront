@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>buma</h1>
+    <div class="Buma">
+        <nuxt-link to="/">buma</nuxt-link>
         <nuxt />
     </div>
 </template>
