@@ -3,8 +3,9 @@
 </template>
 
 <script>
-import Liberty from "../skins/liberty/layout.vue"
-import Buma from "../skins/buma/layout.vue"
+const Liberty = async() => await import("../skins/liberty/layout.vue")
+const Buma = async() => await import("../skins/buma/layout.vue")
+
 const skin = "buma"
 var Layout;
 
